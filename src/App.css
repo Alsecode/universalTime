@@ -14,12 +14,22 @@
   border-radius: 8px;
   max-width: 800px;
   margin: 0 auto;
+  min-height: 100vh;
+}
+
+.main-title {
+  font-size: 24px;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.main-content {
   display: flex;
   flex-direction: column;
   gap: 35px;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .fileUpload {

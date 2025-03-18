@@ -22,8 +22,11 @@ const App = () => {
 
   return (
     <div className="container">
-      <FileUpload className="fileUpload" onFileChange={setFile} />
-      {file && <TimeOutput ms={dataValue} />}
+      <h1 className="main-title">Определение точного времени</h1>
+      <main className="main-content">
+        <FileUpload className="fileUpload" onFileChange={setFile} />
+        {file && <TimeOutput ms={dataValue} />}
+      </main>
     </div>
   );
 }
