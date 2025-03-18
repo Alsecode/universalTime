@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/universalTime/static/css/main.fe4a3c9d.css",
+    "main.js": "/universalTime/static/js/main.b3d5d7e9.js",
+    "index.html": "/universalTime/index.html",
+    "main.fe4a3c9d.css.map": "/universalTime/static/css/main.fe4a3c9d.css.map",
+    "main.b3d5d7e9.js.map": "/universalTime/static/js/main.b3d5d7e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe4a3c9d.css",
+    "static/js/main.b3d5d7e9.js"
+  ]
+}
