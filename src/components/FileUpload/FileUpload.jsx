@@ -68,6 +68,9 @@ const FileUpload = ({ className, onFileChange }) => {
   const handleChange = (e) => {
     if (e.target.files) {
       handleFile(e.target.files);
+
+      // Сброс value, чтобы при повторной загрузке того же файла снова сработало onChange
+      e.target.value = null;
     }
   };
 
