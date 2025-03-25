@@ -1,10 +1,11 @@
-// Получение времени типа: часы:минуты:секунды
+// Получение времени типа: часы:минуты:секунды.миллисекунды
 const getFormattedTime = (ms) => {
   const now = new Date(ms);
   const hours = now.getHours().toString().padStart(2, '0');
   const minutes = now.getMinutes().toString().padStart(2, '0');
   const seconds = now.getSeconds().toString().padStart(2, '0');
-  const formattedTime = `${hours}:${minutes}:${seconds}`;
+  const milliseconds = now.getMilliseconds().toString().padStart(3, '0');
+  const formattedTime = `${hours}:${minutes}:${seconds}.${milliseconds}`;
 
   return formattedTime;
 }
@@ -88,8 +89,9 @@ const getUniversalTime = (ms) => {
   const hours = now.getUTCHours().toString().padStart(2, '0');
   const minutes = now.getUTCMinutes().toString().padStart(2, '0');
   const seconds = now.getUTCSeconds().toString().padStart(2, '0');
+  const milliseconds = now.getUTCMilliseconds().toString().padStart(3, '0');
 
-  const utcTime = `${hours}:${minutes}:${seconds}`;
+  const utcTime = `${hours}:${minutes}:${seconds}.${milliseconds}`;
   
   return utcTime;
 }
