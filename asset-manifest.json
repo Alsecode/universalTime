@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/universalTime/static/css/main.1b6ea014.css",
-    "main.js": "/universalTime/static/js/main.928cf5c4.js",
+    "main.js": "/universalTime/static/js/main.f2661364.js",
     "index.html": "/universalTime/index.html",
     "main.1b6ea014.css.map": "/universalTime/static/css/main.1b6ea014.css.map",
-    "main.928cf5c4.js.map": "/universalTime/static/js/main.928cf5c4.js.map"
+    "main.f2661364.js.map": "/universalTime/static/js/main.f2661364.js.map"
   },
   "entrypoints": [
     "static/css/main.1b6ea014.css",
-    "static/js/main.928cf5c4.js"
+    "static/js/main.f2661364.js"
   ]
 }
